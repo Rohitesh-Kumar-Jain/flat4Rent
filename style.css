@@ -142,3 +142,8 @@ color:#777;
     font-size: 12px;
 }
 }
+
+.media-grid > *:first-child,
+.media-grid > *:last-child {
+    margin-top: 100px;
+}
