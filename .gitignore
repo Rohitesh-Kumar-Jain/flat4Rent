@@ -1,0 +1,60 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+venv.bak/
+
+# PyCharm and IDEs
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs, databases and reports
+*.log
+*.sqlite3
+.coverage
+htmlcov/
+
+# Testing caches
+.pytest_cache/
+.mypy_cache/
+
+# Environment files
+.env
+.env.*
+
+# Other
+pip-wheel-metadata/
+*.egg
+*.whl
+
+# Ignore compiled C extensions
+*.so
+
+# Node modules (if any)
+node_modules/
+
+# Ignore coverage and bytecode dirs
+coverage/
+
+# Optional: ignore large media files (uncomment if desired)
+#*.mp4
+#*.mov
+#*.jpeg
+#*.jpg
+#media/
+
