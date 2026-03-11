@@ -24,3 +24,13 @@ s.style.transition="all 1s ease"
 observer.observe(s)
 
 })
+
+// Enable music playback after user interaction
+window.addEventListener('click', function playMusicOnce() {
+  const audio = document.querySelector('audio');
+  if (audio) {
+    audio.play();
+    // Remove listener after first click
+    window.removeEventListener('click', playMusicOnce);
+  }
+});
